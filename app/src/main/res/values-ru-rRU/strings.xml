@@ -29,7 +29,7 @@
     <string name="calc_button">
         Рассчитать текущую численность
     </string>
-
+    <string name="animal_en">Лиса</string>
     <string name="animal_ca">Дикий кабан</string>
     <string name="animal_es">Иберийская рысь</string>
     <string name="animal_ro">Бурый медведь</string>

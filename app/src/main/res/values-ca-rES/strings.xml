@@ -3,36 +3,36 @@
     <string name="app_name">MiniAct2</string>
 
     <string name="current_language">
-        El idioma actual del sistema es: %1$s
+        L’idioma actual del sistema és: %1$s
     </string>
 
     <string name="greeting_portrait">
-        ¡Hola Mundo! Orientación del dispositivo: vertical
+        Hola món! Orientació del dispositiu: vertical
     </string>
 
     <string name="greeting_landscape">
-        ¡Hola Mundo! Orientación del dispositivo: horizontal
+        Hola món! Orientació del dispositiu: horitzontal
     </string>
 
     <string name="animal_label">
-        Animal típico: %1$s
+        Animal típic: %1$s
     </string>
 
     <string name="year_2000_label">
-        Población estimada en el año 2000: %1$.0f individuos
+        Població estimada l’any 2000: %1$.0f individus
     </string>
 
     <string name="current_year_label">
-        Población estimada en %1$d: %2$.0f individuos
+        Població estimada l’any %1$d: %2$.0f individus
     </string>
 
     <string name="calc_button">
-        Calcular población actual
+        Calcular població actual
     </string>
-
-    <string name="animal_ca">Jabalí</string>
-    <string name="animal_es">Lince ibérico</string>
-    <string name="animal_ro">Oso pardo</string>
-    <string name="animal_ru">Tigre siberiano</string>
+    <string name="animal_en">Guineu</string>
+    <string name="animal_ca">Senglar</string>
+    <string name="animal_es">Linx ibèric</string>
+    <string name="animal_ro">Ós bru</string>
+    <string name="animal_ru">Tigre siberià</string>
 
 </resources>

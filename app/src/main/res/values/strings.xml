@@ -34,6 +34,7 @@
     </string>
 
     <!-- Animal names -->
+    <string name="animal_en">Fox</string>
     <string name="animal_ca">Wild boar</string>
     <string name="animal_es">Iberian lynx</string>
     <string name="animal_ro">Brown bear</string>
