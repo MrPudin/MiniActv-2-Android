@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">MiniAct2</string>
+
+    <string name="current_language">
+        Текущий язык системы: %1$s
+    </string>
+
+    <string name="greeting_portrait">
+        Добро пожаловать! Ориентация устройства: вертикальная
+    </string>
+
+    <string name="greeting_landscape">
+        Добро пожаловать! Ориентация устройства: горизонтальная
+    </string>
+
+    <string name="animal_label">
+        Типичное животное: %1$s
+    </string>
+
+    <string name="year_2000_label">
+        Предполагаемая численность в 2000 году: %1$.0f особей
+    </string>
+
+    <string name="current_year_label">
+        Предполагаемая численность в %1$d году: %2$.0f особей
+    </string>
+
+    <string name="calc_button">
+        Рассчитать текущую численность
+    </string>
+
+    <string name="animal_ca">Дикий кабан</string>
+    <string name="animal_es">Иберийская рысь</string>
+    <string name="animal_ro">Бурый медведь</string>
+    <string name="animal_ru">Сибирский тигр</string>
+
+</resources>

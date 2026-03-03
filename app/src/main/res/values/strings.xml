@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">MiniAct2</string>
+
+    <!-- System language -->
+    <string name="current_language">
+        Current system language: %1$s
+    </string>
+
+    <!-- Greeting depending on orientation -->
+    <string name="greeting_portrait">
+        Welcome! Device orientation: portrait
+    </string>
+
+    <string name="greeting_landscape">
+        Welcome! Device orientation: landscape
+    </string>
+
+    <!-- Animal theme -->
+    <string name="animal_label">
+        Typical animal: %1$s
+    </string>
+
+    <string name="year_2000_label">
+        Estimated population in 2000: %1$.0f individuals
+    </string>
+
+    <string name="current_year_label">
+        Estimated population in %1$d: %2$.0f individuals
+    </string>
+
+    <string name="calc_button">
+        Calculate current population
+    </string>
+
+    <!-- Animal names -->
+    <string name="animal_ca">Wild boar</string>
+    <string name="animal_es">Iberian lynx</string>
+    <string name="animal_ro">Brown bear</string>
+    <string name="animal_ru">Siberian tiger</string>
+
+</resources>

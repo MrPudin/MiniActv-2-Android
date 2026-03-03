@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">MiniAct2</string>
+
+    <string name="current_language">
+        Limba actuală a sistemului este: %1$s
+    </string>
+
+    <string name="greeting_portrait">
+        Bine ai venit! Orientarea dispozitivului: vertical
+    </string>
+
+    <string name="greeting_landscape">
+        Bine ai venit! Orientarea dispozitivului: orizontal
+    </string>
+
+    <string name="animal_label">
+        Animal specific: %1$s
+    </string>
+
+    <string name="year_2000_label">
+        Populația estimată în anul 2000: %1$.0f indivizi
+    </string>
+
+    <string name="current_year_label">
+        Populația estimată în anul %1$d: %2$.0f indivizi
+    </string>
+
+    <string name="calc_button">
+        Calculează populația actuală
+    </string>
+
+    <string name="animal_ca">Mistreț</string>
+    <string name="animal_es">Râs iberic</string>
+    <string name="animal_ro">Urs brun</string>
+    <string name="animal_ru">Tigru siberian</string>
+
+</resources>
