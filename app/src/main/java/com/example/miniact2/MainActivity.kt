@@ -48,7 +48,7 @@ fun MiniActScreen(modifier: Modifier = Modifier) {
     val currentYear = remember { Year.now().value }
     val yearsSince2000 = remember(currentYear) { (currentYear - 2000).coerceAtLeast(0) }
 
-    // Nombre del animal según idioma (usando strings)
+    // Nombre del animal según idioma
     val animalName = when (language) {
         "ca" -> stringResource(R.string.animal_ca)
         "es" -> stringResource(R.string.animal_es)
@@ -57,7 +57,7 @@ fun MiniActScreen(modifier: Modifier = Modifier) {
         else -> stringResource(R.string.animal_en)
     }
 
-    // Población en 2000 (inventada, pero consistente)
+    // Población en 2000
     val base2000 = when (language) {
         "ca" -> 20000.0 // jabali
         "es" -> 900.0   // lince iberico
@@ -66,7 +66,6 @@ fun MiniActScreen(modifier: Modifier = Modifier) {
         else -> 12000.0 // zorro rojo
     }
 
-    // Crecimiento anual
     val annualRate = when (language) {
         "ca" -> 0.020   // +2.0%
         "es" -> 0.035   // +3.5%
@@ -75,7 +74,6 @@ fun MiniActScreen(modifier: Modifier = Modifier) {
         else -> 0.015   // +1.5%
     }
 
-    // Resultado debe sobrevivir rotación
     var result by rememberSaveable(language) { mutableStateOf<Double?>(null) }
 
     val greeting = if (isLandscape) {
